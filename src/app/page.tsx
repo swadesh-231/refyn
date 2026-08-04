@@ -1,7 +1,9 @@
-
+import { ModeToggle } from "@/components/mode-toggle";
 
 export default function Home() {
   return (
-    <div>Welcome To My Project</div>
+    <div>
+      <ModeToggle />
+    </div>
   );
 }
